@@ -15,8 +15,9 @@ function agregarAmigo(){
     friendsList.push(nombre);
     //Limpiar y enfocar el input
     inputAmigo.value = '';
-   
-    
+    inputAmigo.focus();
+
+    showList();
 }
 
 function showList(){
@@ -27,6 +28,7 @@ function showList(){
     friendsList.forEach((amigo) => {
         const li = document.createElement('li');
         li.textContent = amigo;
+        li.classList.add('lista-amigo-item'); // Añadir clase para estilo
         lista.appendChild(li);
     });
 }

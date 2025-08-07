@@ -250,3 +250,20 @@ ul {
   }
 }
 
+/* ✨ Animación al agregar elementos */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lista-amigo-item {
+  animation: fadeInSlide 0.4s ease forwards;
+}
+
+
