@@ -36,13 +36,6 @@ CSS3
 
 JavaScript Vanilla (puro)
 
-challenge-amigo-secreto_esp-main/
-├── index.html
-├── style.css
-├── app.js
-└── assets/
-    └── amigo-secreto.png
-    └── play_circle_outline.png
 
 🎯 Objetivo del proyecto
 Este proyecto fue desarrollado como parte del Challenge de Lógica de Programación de Alura LATAM, 
