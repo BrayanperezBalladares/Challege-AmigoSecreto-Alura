@@ -1,11 +1,7 @@
 
 let friendsList  = [];
 
-//Referencias al DOM
-const listaAmigos = document.getElementById('listaAmigos');
-const resultado = document.getElementById('resultado');
-
-function addFriend(){
+function agregarAmigo(){
     const inputAmigo  = document.getElementById('amigo');
     const nombre = inputAmigo.value.trim();
 
@@ -22,3 +18,17 @@ function addFriend(){
    
     
 }
+
+function showList(){
+    const lista = document.getElementById('listaAmigos'); // Obtener la lista de amigos
+    lista.innerHTML = ''; //Limpiar la lista existente
+
+    //Recorrer la lista de amigos y crear un elemento li para cada uno
+    friendsList.forEach((amigo) => {
+        const li = document.createElement('li');
+        li.textContent = amigo;
+        lista.appendChild(li);
+    });
+}
+
+
