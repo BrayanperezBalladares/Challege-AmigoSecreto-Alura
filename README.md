@@ -30,6 +30,7 @@ Este es un proyecto simple desarrollado en HTML, CSS y JavaScript, que permite a
 5. Haz clic en "Sortear amigo" para seleccionar un amigo al azar.
 
 🛠️ Tecnologías utilizadas
+
 HTML5
 
 CSS3
